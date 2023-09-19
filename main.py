@@ -23,7 +23,7 @@ def uppercase_encrypt(char):
     encrypted_text = encrypted_text + uppercase_alphabet[encrypted_char_index]
     return (encrypted_text)
 
-def encrypt_digit(char):
+def digit_encrypt(char):
     encrypted_char_index = (digits.index(char) + key) % 10
     encrypted_text = encrypted_text + digits[encrypted_char_index]
     return (encrypted_text)
